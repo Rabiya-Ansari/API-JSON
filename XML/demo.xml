@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<Aptech>
+    <Department>
+        <Students>
+            <Student>
+                <Name>Rabiya</Name>
+                <Email>rabiya@gmail.com</Email>
+
+                <Name>Usama</Name>
+                <Email>usama@gmail.com</Email>
+
+                <Name>Aisha</Name>
+                <Email>aisha@gmail.com</Email>
+            </Student>
+        </Students>
+    </Department>
+</Aptech>

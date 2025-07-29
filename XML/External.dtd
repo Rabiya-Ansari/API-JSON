@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ENTITY Students SYSTEM "External.dtd" [
+    <!ENTITY a "Aisha">
+]>
+<Students>
+    <Student id="1" id="2">
+        <name >&a;</name>
+        <age>21</age>
+        <marks>75</marks>
+    </Student>
+
+    <Student id="2">
+        <name>Rabiya</name>
+        <age>24</age>
+        <marks>75</marks>
+    </Student>
+</Students>

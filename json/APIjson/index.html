@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json</title>
+</head>
+<body>
+
+
+  <div id="postdata"></div>
+
+    <Script>
+        fetch("https://my-json-server.typicode.com/typicode/demo/db")
+        .then((response)=> response.json())
+        .then((data)=>{
+            console.log(data)
+            let post = "";
+            data.posts.forEach((d) => {
+                post += `<div> ${d.title} - ${d.id} </div>
+                `
+            })
+            document.getElementById("postdata").innerHTML=post;
+        })
+
+    </Script>
+</body>
+</html>

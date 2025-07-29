@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE institute [
+    <!ELEMENT institute (Students,Teacher?)>
+    <!ELEMENT Students (Student+)>
+    <!ELEMENT Student (name,age,marks)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT marks (#PCDATA)>
+    <!ELEMENT teacher (#PCDATA)>
+
+]>
+<institute>
+    <Students>
+        <Student>
+            <name>Aisha</name>
+            <age>23</age>
+            <marks>25</marks>
+        </Student>
+    </Students>
+
+        <Student>
+            <name>Rabiya</name>
+            <age>24</age>
+            <marks>70</marks>
+        </Student>
+</institute>
